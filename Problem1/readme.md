@@ -1,3 +1,6 @@
+# Apple and Orange
+
+
 Sam's house has an apple tree and an orange tree that yield an abundance of fruit. In the diagram below, the red region denotes his house, where  is the start point, and  is the endpoint. The apple tree is to the left of his house, and the orange tree is to its right. You can assume the trees are located on a single point, where the apple tree is at point , and the orange tree is at point .
 
 
@@ -22,7 +25,8 @@ a: integer, location of the Apple tree.
 b: integer, location of the Orange tree.
 apples: integer array, distances at which each apple falls from the tree.
 oranges: integer array, distances at which each orange falls from the tree.
-Input Format
+
+**Input Format**
 
 The first line contains two space-separated integers denoting the respective values of  and . 
 The second line contains two space-separated integers denoting the respective values of  and . 
@@ -32,29 +36,21 @@ The fifth line contains  space-separated integers denoting the respective distan
 
 Constraints
 
-Output Format
+**Output Format**
 
 Print two integers on two different lines:
 
 The first integer: the number of apples that fall on Sam's house.
 The second integer: the number of oranges that fall on Sam's house.
-Sample Input 0
+
+**Sample Input 0**
 
 7 11
 5 15
 3 2
 -2 2 1
 5 -6
-Sample Output 0
+**Sample Output 0**
 
 1
 1
-Explanation 0
-
-The first apple falls at position . 
-The second apple falls at position . 
-The third apple falls at position . 
-The first orange falls at position . 
-The second orange falls at position . 
-Only one fruit (the second apple) falls within the region between  and , so we print  as our first line of output. 
-Only the second orange falls within the region between  and , so we print  as our second line of output.
