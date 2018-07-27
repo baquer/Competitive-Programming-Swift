@@ -1,3 +1,5 @@
+# Zebra
+
 You are choreographing a circus show with various animals. For one act, you are given two kangaroos on a number line ready to jump in the positive direction (i.e, toward positive infinity).
 
 The first kangaroo starts at location  and moves at a rate of  meters per jump.
@@ -15,17 +17,12 @@ kangaroo has the following parameter(s):
 x1, v1: integers, starting position and jump distance for kangaroo 1
 x2, v2: integers, starting position and jump distance for kangaroo 2
 
-Explanation 0
 
-The two kangaroos jump through the following sequence of locations:
-
-
-From the image, it is clear that the kangaroos meet at the same location (number  on the number line) after same number of jumps ( jumps), and we print YES.
-
-Sample Input 1
+**Sample Input 1**
 
 0 2 5 3
-Sample Output 1
+
+**Sample Output 1**
 
 NO
 
